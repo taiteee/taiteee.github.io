@@ -1,0 +1,60 @@
+/* カード全体を包むグリッドコンテナ */
+.card-grid {
+    display: grid;
+    /* 画面幅に合わせて、最小幅280pxのカードを並べられるだけ並べる */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* カードとカードの間の隙間 */
+    gap: 20px;
+    /* グリッド全体の周りの余白 */
+    padding: 20px;
+    /* 画面幅いっぱいに広がりすぎないように最大幅を設定 */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 以前お伝えした各カード（.card-link）の max-width は削除するか、100% に変更します */
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: #313131;
+    width: 100%; /* 親のグリッドの幅に合わせる */
+}
+
+/* カード本体のデザイン */
+.card {
+    background: #d0d0cc;
+    border: 2px solid #fff1cf; /* 薄いグレーの枠線 */
+    border-radius: 8px;        /* 角を少し丸くする */
+    overflow: hidden;          /* 画像が角丸をはみ出さないようにする */
+    transition: 0.1s ease-in-out; /* ホバー時のアニメーション設定 */
+}
+
+/* マウスが乗った時の動き（少し上に浮いて影がつく） */
+.card:hover {
+    background: #fff1cf;
+}
+
+/* 画像の設定 */
+.card-img {
+    width: 100%;             /* 幅いっぱいに広げる */
+    height: 180px;           /* 高さを固定 */
+    object-fit: cover;       /* 画像の縦横比を崩さずに枠に収める */
+}
+
+/* 余白の調整 */
+.card-body {
+    padding: 15px 20px;      /* テキストの周りに余白を作る */
+}
+
+.card-title {
+    margin: 0 0 10px 0;      /* 下に少しだけ余白 */
+    font-size: 1.2rem;
+	color: #313131;
+}
+
+.card-text {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;        /* 行間を少し開けて読みやすく */
+    color: #555555;
+}

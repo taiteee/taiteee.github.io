@@ -11,11 +11,18 @@
     padding: 10px 25px;
     color: #313131;
     font-weight: 500;
+	text-decoration: none;
 }
 .button001 a:hover {
     background: #fff;
     color: #313131;
 }
+.button001 p {
+	color: #555;
+	position: relative;
+	align-items: center;
+}
+/*
 .button001 a:after {
     content: '';
     width: 5px;
@@ -29,7 +36,7 @@
     right: 20px;
     border-radius: 1px;
 }
-
+*/
 
 /* 001 */
 /* from: https://dubdesign.net/download/html-css/button-design/ */
@@ -44,6 +51,7 @@
     padding: 10px 25px;
     color: #313131;
     font-weight: 500;
+	text-decoration: none;
 }
 .button002 a:hover {
     background: #fff;
