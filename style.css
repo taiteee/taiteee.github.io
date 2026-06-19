@@ -1,0 +1,41 @@
+body {
+  background-color: #393f4c;
+}
+
+h1 {
+  line-height: 3em;
+  color: #fff1cf;
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+  color: #fff1cf;
+  background-color: #543f32;
+  border: outset 4px #a58f86;
+  padding: 3px;
+}
+
+h3{
+  color: #f8f4e6;
+  text-align: left;
+  padding: 3px;
+}
+
+ul{
+  color: #f3f3f3;
+}
+
+p{
+  margin: 5px 10px;
+  color: #f3f3f3;  
+  line-height: 130%;
+}
+
+a:link{
+  color: #89c3eb;
+}
+
+a:visited{
+  color: #c0a2c7;
+}
