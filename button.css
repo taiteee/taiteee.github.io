@@ -29,6 +29,39 @@
     right: 20px;
     border-radius: 1px;
 }
+
+
+/* 001 */
+/* from: https://dubdesign.net/download/html-css/button-design/ */
+.button002 a {
+    background: #fff1cf;
+    border-radius: 3px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+    font-weight: 500;
+}
+.button002 a:hover {
+    background: #fff;
+    color: #313131;
+}
+.button002 a:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(-135deg) translateY(50%);
+    position: absolute;
+	transition: left 0.5;
+    top: 50%;
+    left: 10px;
+    border-radius: 1px;
+}
 /*
 .button001 a:hover:after {
     border-color: #313131;
