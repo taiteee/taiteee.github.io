@@ -1,0 +1,45 @@
+/* 001 */
+/* from: https://dubdesign.net/download/html-css/button-design/ */
+.button001 a {
+    background: #fff1cf;
+    border-radius: 3px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+	transition: 0.2s ease-in-out;
+    font-weight: 500;
+}
+.button001 a:hover {
+    background: #fff;
+    color: #313131;
+}
+.button001 a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+	transition: right 0.1;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+	transition: 0.2s ease-in-out;
+}
+/*
+.button001 a:hover:after {
+    border-color: #313131;
+}
+*/
+/* ボタンをまとめる箱のスタイル */
+.button-wrap {
+    display: flex;          /* 中身を横並びにする */
+    justify-content: center; /* ボタン全体を中央に寄せる（左寄せが良い場合は flex-start に変更） */
+    gap: 20px;              /* ボタンとボタンの間の隙間を開ける */
+    margin: 20px 0;         /* 箱の上下に少し余白を持たせる */
+}
