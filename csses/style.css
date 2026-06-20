@@ -22,6 +22,10 @@ h3{
   padding: 3px;
 }
 
+li{
+	color: #f8f4e6;
+}
+
 ul{
   color: #f3f3f3;
 }
@@ -38,4 +42,9 @@ a:link{
 
 a:visited{
   color: #c0a2c7;
+}
+
+footer{
+	color: #f8f4e6;
+	font-size: 10;
 }
