@@ -12,7 +12,6 @@
     margin: 0 auto;
 }
 
-/* 以前お伝えした各カード（.card-link）の max-width は削除するか、100% に変更します */
 .card-link {
     display: block;
     text-decoration: none;
