@@ -1,5 +1,6 @@
 body {
   background-color: #393f4c;
+  font-size: 16px;
 }
 
 h1 {
@@ -48,3 +49,6 @@ footer{
 	color: #f8f4e6;
 	font-size: 10;
 }
+
+/* --- ここまではPC用のスタイル --- */
+.container { display: flex; } /* 横並び */
