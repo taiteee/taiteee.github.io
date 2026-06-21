@@ -1,0 +1,30 @@
+@media(min-width: 640px){
+	.site-header{
+		position: fixed;
+		top:0;
+		left:0; /* 左端・右端に固定 */
+		right:0;
+		width: 100%; /* 横幅を画面いっぱいに広げる */
+		height: 40px;
+		font-size: 20px;
+		background: rgba(0,0,0,.50);
+		/*border-bottom: 1px solid rgba(255,255,255,.06);*/
+		a{
+			color: f3f3f3;
+			text-decoration: none;
+			font-family:Georgia, 'Times New Roman', Times, serif;
+		}
+	}
+
+	/* 中身の整列 */
+	.site-header .inner {
+		max-width: 1000px;
+		height: 100%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-inline: 16px;
+	}
+}
+

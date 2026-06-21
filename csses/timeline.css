@@ -11,7 +11,7 @@
 }
 
 /* for Desktop */
-@media( min-width: 639px){
+@media(min-width: 640px){
   .timeline > li {
     overflow: hidden;
     margin: 0;
