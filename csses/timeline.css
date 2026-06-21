@@ -10,11 +10,6 @@
   background: linear-gradient(transparent 80%, #008899 70%);
 }
 
-/* for smartphone */
-@media(max-width: 640px){
-  
-}
-
 /* for Desktop */
 @media( min-width: 639px){
   .timeline > li {
