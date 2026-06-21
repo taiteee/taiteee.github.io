@@ -1,37 +1,39 @@
-/*@media(min-width: 640px){*/
-	.site-header{
-		position: fixed;
-		top:0;
-		left:0; /* 左端・右端に固定 */
-		right:0;
-		width: 100%; /* 横幅を画面いっぱいに広げる */
-		height: 40px;
-		font-size: 20px;
-		background: rgba(0,0,0,.50);
-		/*border-bottom: 1px solid rgba(255,255,255,.06);*/
-		a{
-			color: f3f3f3;
-			text-decoration: none;
-			font-family:Georgia, 'Times New Roman', Times, serif;
-		}
+.site-header{
+	position: fixed;
+	top:0;
+	left:0; /* 左端・右端に固定 */
+	right:0;
+	width: 100%; /* 横幅を画面いっぱいに広げる */
+	height: 40px;
+	font-size: 20px;
+	background: rgba(0,0,0,.50);
+	/*border-bottom: 1px solid rgba(255,255,255,.06);*/
+	a{
+		color: f3f3f3;
+		text-decoration: none;
+		font-family:Georgia, 'Times New Roman', Times, serif;
 	}
+}
 
-	/* 中身の整列 */
-	.site-header .inner {
-		max-width: 1000px;
-		height: 100%;
-		margin: 0 auto;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding-inline: 16px;
-	}
+/* 中身の整列 */
+.site-header .inner {
+	max-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 16px;
+}
 
-	h1{
-		line-height: 3em;
-		color: #fff1cf;
-		text-align: center;
-		padding-top: 40px;
-	}
-/*}*/
+h1{
+	line-height: 3em;
+	color: #fff1cf;
+	text-align: center;
+	padding-top: 40px;
+}
 
+/* ページ内リンクの移動先になる要素（例としてすべての見出し）に適用する場合 */
+h2 {
+    scroll-margin-top: 50px; /* ヘッダーの高さ(80px) + 少しの余白 */
+}
