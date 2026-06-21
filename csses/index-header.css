@@ -1,4 +1,4 @@
-@media(min-width: 640px){
+/*@media(min-width: 640px){*/
 	.site-header{
 		position: fixed;
 		top:0;
@@ -26,5 +26,12 @@
 		justify-content: space-between;
 		padding-inline: 16px;
 	}
-}
+
+	h1{
+		line-height: 3em;
+		color: #fff1cf;
+		text-align: center;
+		padding-top: 40px;
+	}
+/*}*/
 
